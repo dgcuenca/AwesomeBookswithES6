@@ -1,0 +1,20 @@
+{
+  "name": "awesomebookswithes6",
+  "version": "1.0.0",
+  "description": "Use ES6 modules to write modular JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgcuenca/AwesomeBookswithES6.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgcuenca/AwesomeBookswithES6/issues"
+  },
+  "homepage": "https://github.com/dgcuenca/AwesomeBookswithES6#readme"
+}
