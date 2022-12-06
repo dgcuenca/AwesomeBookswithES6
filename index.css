@@ -1,3 +1,55 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #519ee1;
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 2rem;
+}
+.nav-bar .nav-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+}
+.nav-bar .nav-list li a {
+  color: white;
+  text-decoration: none;
+}
+.nav-bar .nav-list li a:hover {
+  opacity: 0.8;
+  color: darkblue;
+}
+
+.bigcontainer {
+  display: flex;
+  flex-direction: column;
+  height: 94vh;
+}
+.bigcontainer .containerSection {
+  flex-grow: 1;
+  color: white;
+}
 
 /*# sourceMappingURL=index.css.map */
