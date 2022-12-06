@@ -1,15 +1,13 @@
 /* eslint-disable max-classes-per-file */
 /* eslint-disable class-methods-use-this */
-
 let bookTitle;
 let bookAuthor;
 const library = document.querySelector('.library');
 let bookList = JSON.parse(localStorage.getItem('bookList')) || [];
-
-function getInformation() {
+const getInformation = () => {
   bookTitle = document.getElementById('bookTitle').value;
   bookAuthor = document.getElementById('bookAuthor').value;
-}
+};
 
 class Book {
   constructor(title, author, id) {
@@ -51,6 +49,8 @@ class BookShelf {
 
 const shelf = new BookShelf();
 const addButton = document.querySelector('.add-button');
+
+const addLibrary = () => {
 addButton.addEventListener('click', () => {
   getInformation();
   const bookId = Math.random() * 100000;
@@ -58,6 +58,9 @@ addButton.addEventListener('click', () => {
   const idstring = id.toString();
   shelf.addBook(bookTitle, bookAuthor, idstring);
 });
+};
+
+
 function giveInformation(id) {
   const index = id.id;
   shelf.deleteBook(index);
@@ -77,3 +80,5 @@ const x = 0;
 if (x === 1) {
   giveInformation();
 }
+
+export {addLibrary} ;
