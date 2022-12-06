@@ -1,3 +1,4 @@
-import { addLibrary } from './modules/script.js';
+import { addLibrary, quitLibrary } from './modules/script.js';
 import { displayBookList, displayAddBook, displayContact } from './modules/navbar.js';
 addLibrary();
+quitLibrary();
