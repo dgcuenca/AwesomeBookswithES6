@@ -22,6 +22,8 @@ body {
   left: 0;
   right: 0;
   padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
 }
 .nav-bar .nav-list {
   display: flex;
@@ -40,6 +42,10 @@ body {
 .nav-bar .nav-list li a:hover {
   opacity: 0.8;
   color: darkblue;
+}
+.nav-bar .date {
+  margin-left: auto;
+  font-size: 1.2rem;
 }
 
 .bigcontainer {
