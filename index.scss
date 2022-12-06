@@ -57,9 +57,26 @@ body {
   display: flex;
   flex-direction: column;
   height: 94vh;
+  align-items: center;
+
+  h1{
+    font-size: 5rem;
+  }
 
   .containerSection {
     flex-grow: 1;
-    color: $color-letters
+    color: $color-letters;
+
+    #booklistSection {
+      display: none;
+    }
+
+    #main-screen {
+      display: flex;
+    }
+
+    #contact-section {
+      display: none
+    }
   };
 }

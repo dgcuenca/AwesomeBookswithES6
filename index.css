@@ -46,10 +46,23 @@ body {
   display: flex;
   flex-direction: column;
   height: 94vh;
+  align-items: center;
+}
+.bigcontainer h1 {
+  font-size: 5rem;
 }
 .bigcontainer .containerSection {
   flex-grow: 1;
   color: white;
+}
+.bigcontainer .containerSection #booklistSection {
+  display: none;
+}
+.bigcontainer .containerSection #main-screen {
+  display: flex;
+}
+.bigcontainer .containerSection #contact-section {
+  display: none;
 }
 
 /*# sourceMappingURL=index.css.map */
