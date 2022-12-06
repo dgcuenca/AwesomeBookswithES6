@@ -3,7 +3,7 @@
 let bookTitle;
 let bookAuthor;
 const library = document.querySelector('.library');
-let bookList = JSON.parse(localStorage.getItem('bookList')) || [];
+const bookList = JSON.parse(localStorage.getItem('bookList')) || [];
 const getInformation = () => {
   bookTitle = document.getElementById('bookTitle').value;
   bookAuthor = document.getElementById('bookAuthor').value;
@@ -33,7 +33,7 @@ class BookShelf {
     const resultBooks = bookList.filter((book) => book.id !== id);
 
     localStorage.setItem('bookList', JSON.stringify(resultBooks));
-    console.log('holis')
+    console.log('holis');
   }
 
   get() {
@@ -60,7 +60,6 @@ const addLibrary = () => {
     shelf.addBook(bookTitle, bookAuthor, idstring);
   });
 };
-
 
 const giveInformation = (id) => {
   const resultBooks = bookList.filter((book) => book.id !== id);

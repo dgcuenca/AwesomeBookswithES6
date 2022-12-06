@@ -27,4 +27,4 @@ listBook.addEventListener('click', displayBookList);
 bookAdd.addEventListener('click', displayAddBook);
 contact.addEventListener('click', displayContact);
 
-export { displayBookList, displayAddBook, displayContact};
+export { displayBookList, displayAddBook, displayContact };
