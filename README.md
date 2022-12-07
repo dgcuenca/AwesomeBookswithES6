@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="#" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -35,7 +35,7 @@
 # 📖 [Library] <a name="about-project"></a>
 
 
-**[Library]** is a website to show the user a list of book, allow them to add and erase elements.
+**[Library]** Use code from [libraryClasses](https://github.com/dgcuenca/libraryClasses) , refactor it in order to use with ES6 modules.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,8 +45,8 @@
   <summary>Client</summary>
   <ul>
     <li><a href="https://html.spec.whatwg.org/multipage/">HTML</a></li>
-    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
-    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+    <li><a href="https://sass-lang.com/">Sass</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript Modules</a></li>
   </ul>
 </details>
 
@@ -68,7 +68,7 @@
 
 > Describe between 1-3 key features of the application.
 
-- **[See_the_book_list]**
+- **[Use of javascript modules to show a website]**
 - **[add_a_book]**
 - **[erase_a_book]**
 
@@ -77,7 +77,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> This project can be used as an example on how objects and list can be used with classes
+> This project can be used as an example on how to use ES6 modules features to make a website. 
 
 To get a local copy up and running, follow these steps.
 
@@ -112,12 +112,6 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
-
-👤 **Glenda Diaz**
-
-- GitHub: [@Gdiazdiaz](https://github.com/Gdiazdiaz)
-- LinkedIn: [Glenda Diaz](www.linkedin.com/in/glendadiazz)
-
 👤 **Diego Cuenca**
 
 - GitHub: [@dgcuenca](https://github.com/dgcuenca)
@@ -132,6 +126,8 @@ You can deploy this project using:
 > Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Improve UX experience]**
+- [ ] **[Clean refactored code]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,7 +145,7 @@ Feel free to check the [issues page](https://github.com/Gdiazdiaz/Library/issues
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please leave us a star
+If you like this project please leave me a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

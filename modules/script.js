@@ -42,11 +42,6 @@ class BookShelf {
         <button type="button" class="remove-book" id="${book.id}">Remove</button>
     </div>`;
 
-      // library.addEventListener('DOMSubtreeModified', () => {
-      // document.querySelectorAll('.remove-book').forEach((bookBtn) => {
-      // bookBtn.addEventListener('click', () => giveInformation(book.id));
-      //  });
-      // });
     });
     library.innerHTML = bookgenerator;
   }
