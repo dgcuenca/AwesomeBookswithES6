@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import { addLibrary, quitLibrary } from './modules/script.js';
 import { displayBookList, displayAddBook, displayContact } from './modules/navbar.js';
 import Date from './modules/date.js';

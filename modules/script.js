@@ -31,18 +31,22 @@ class BookShelf {
 
   deleteBook(id) {
     const resultBooks = bookList.filter((book) => book.id !== id);
-
     localStorage.setItem('bookList', JSON.stringify(resultBooks));
-    console.log('holis');
   }
 
   get() {
     let bookgenerator = '';
     bookList.forEach((book) => {
-      bookgenerator += `<div class="book">
-      <p class="book-text">"${book.title}" by ${book.author}</p>
-      <button type="button" class="book-button" id="${book.id}">Remove</button>
-  </div>`;
+      bookgenerator += `<div class="book-container">
+        <p class="book-title">"${book.title}" by ${book.author}</p>
+        <button type="button" class="remove-book" id="${book.id}">Remove</button>
+    </div>`;
+
+      // library.addEventListener('DOMSubtreeModified', () => {
+      // document.querySelectorAll('.remove-book').forEach((bookBtn) => {
+      // bookBtn.addEventListener('click', () => giveInformation(book.id));
+      //  });
+      // });
     });
     library.innerHTML = bookgenerator;
   }
@@ -74,13 +78,20 @@ const quitLibrary = () => {
       <p class="book-title">"${book.title}" by ${book.author}</p>
       <button type="button" class="remove-book" id="${book.id}">Remove</button>
   </div>`;
-    library.addEventListener('DOMSubtreeModified', () => {
-      document.querySelectorAll('.remove-book').forEach((bookBtn) => {
-        bookBtn.addEventListener('click', () => giveInformation(book.id));
-      });
-    });
   });
+
   library.innerHTML = bookgenerator;
+
+  function detectarIdBotton(event) {
+    const idButton = event.target.closest('BUTTON');
+    if (idButton) {
+      const elementoSeleccionado = event.target.id;
+      giveInformation(elementoSeleccionado);
+    }
+  }
+
+  const libraryId = document.getElementById('libraryId');
+  libraryId.addEventListener('click', detectarIdBotton);
 };
 
 export { addLibrary, quitLibrary };
