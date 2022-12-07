@@ -74,6 +74,14 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Link to deployed project.
+
+- [Watch it in action](https://dgcuenca.github.io/AwesomeBookswithES6/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -137,7 +145,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Gdiazdiaz/Library/issues).
+Feel free to check the [issues page](https://github.com/dgcuenca/AwesomeBookswithES6/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
